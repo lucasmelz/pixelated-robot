@@ -100,8 +100,6 @@ document.addEventListener("DOMContentLoaded", () => {
   document
     .querySelector("#mustache")
     .addEventListener("click", drawMustacheFace);
-  document.querySelector("#print").addEventListener("click", () => {
-    printState();
-  });
+  document.querySelector("#print").addEventListener("click", printState);
   document.querySelector("#clear").addEventListener("click", clearAll);
 });
